@@ -11,8 +11,8 @@ use Rack::Session::Pool, :expire_after => 86400 # 1 day
 # See README for getting API id and secret
 
 if (ARGV.size < 2)
-  set :oauth_client_id, '125798150893.apps.googleusercontent.com'
-  set :oauth_client_secret, '_nABcYz7o-OaUZiI0yYpOKm-'
+  set :oauth_client_id, '548900685199-4he65g44ptue3fu5g1g86ankma8oue9j.apps.googleusercontent.com'
+  set :oauth_client_secret, '27XWW9_r2I6EuohvluepNOko'
 
   if (settings.oauth_client_id == 'oauth_client_id')
     puts 'See README for getting API id and secret.  Server terminated.'
